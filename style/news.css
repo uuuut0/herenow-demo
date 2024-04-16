@@ -1,0 +1,327 @@
+body{
+    height: 2200px;
+}
+
+.banner-section{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: calc(40vh - 75px);
+    /* border: 1px solid black; */
+    /* background-color: #375f25a1; */
+    z-index: 0;
+}
+.banner-section-img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 40vh;
+        z-index: -1;
+} 
+.banner-section-img img{
+        width: 100%;
+        height: 100%;
+        
+        object-fit: cover;
+}
+.banner-page-title{
+        height: 50%;
+        width: 100%;
+        margin: 0 200px;
+        /* background-color: #113a8642; */
+        background-color: #1c2b81;
+
+        background: linear-gradient(0deg,#1c2b81 10%,#1c2b8100 100%);
+        position: relative;
+}
+.banner-page-title h2{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+
+        padding: 20px 0;
+        letter-spacing: 4px;
+        position: absolute;
+        bottom: 0;
+        color: aliceblue;
+        text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+/* banner-section ends */
+/* ----------------------- */
+/* section-focus starts */
+.section-focus{
+    padding-top: 80px;
+    width: 100%;
+    /* margin: 0 300px; */
+    max-width: 900px;
+    margin: auto;
+}
+.section-focus-container{
+    width: calc(100% - 400px);
+    margin: auto;
+    min-width: 800px;
+}
+.section-focus-title{
+    margin-bottom: 20px ;
+    padding-bottom: 40px;
+}
+.section-focus-title h3{
+    
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.section-focus-title span{
+    color: #c9c9c9;
+    font-size: 30px;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+.focus-card{
+    display: flex;
+    width: 100%;
+    position: relative;
+
+}
+.focus-card-img{
+    width: 65%;
+    /* background-color: #303030; */
+    z-index: 1;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.focus-card-content{
+    width: 35%;
+    background-color: #353535;
+    box-sizing: border-box;
+    
+
+}
+.focus-card-img img{
+    aspect-ratio: 3/2;
+    max-width: 700px;
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 25%;
+
+}
+.focus-card-side-deco{
+    position: absolute;
+    width: calc(65% * 25%);
+    height: 100%;
+
+    
+    z-index: 0;
+    
+}
+.focus-card-side-deco img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.focus-card-content h3{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    background-color: #D9d9d9;
+    color: #5a5a5a ;
+    padding: 10px 15px;
+    margin-top: 5%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.focus-card-content p{
+    box-sizing: border-box;
+
+    padding: 10px 15px ;
+    font-size: 18px;
+    line-height: 24px;
+    color: #b6b6b6 ;
+    margin: 5% 0;
+}
+.focus-card-content a{
+    float: right;
+    height: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.focus-card-content a img{
+
+    padding: 6px;
+    margin-right: 5px;
+}
+/* divider deco */
+.divider-deco{
+    content: '';
+    height: 1px;
+    width: calc(100% - 400px);
+    margin: 50px 200px;
+    background-color: #fff;
+}
+/* news-card-wrapper */
+
+.news-card-wrapper-container{
+    min-width: 800px;
+    max-width: 1700px;
+    margin: auto;
+    padding: 50px 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.news-card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.news-card{
+    border-radius: 1%;
+    overflow: hidden;
+    width: calc(100%/3 - 10px);
+}
+.news-card-img{
+    width: 100%;
+}
+.news-card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.news-card-content{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px 5px;
+    
+    background-color: #acacac;
+    border-top: 4px solid #af1414f6;
+}
+.news-card-tag{
+    /* background-color: #b8b8b8; */
+    border: 1px solid #707070;
+    background: #c5c5c5;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 2px 6px;
+    margin: 10px 0;
+}
+.news-card-tag p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.news-card-title h4{
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+
+    color: #302e2e;
+    font-weight: 500;
+}
+
+
+/* -------------- */
+/* news feature start */
+.section-feature{
+    /* margin-top: 50px; */
+    /* border-top: 5px solid #952727; */
+    /* height: 400px; */
+    /* width: 100%; */
+    padding: 0 100px;
+    box-sizing: border-box;
+    background: #cabebe48;
+    background-image: url(../imgs/deco-imgs/fabric-pattern-deco.png);
+    background-repeat: repeat;
+
+}
+
+/* .feature-tag{
+    width: 100%;
+    transform: translateY(-100%);
+    
+    
+} */
+.feature-tag p{
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 4px 9px;
+    
+    border-radius: 5px;
+
+    background-color: #952727;
+}
+/* feature-content */
+
+
+.box-feature{
+    border-top: 5px solid  #952727;
+    width: 100%;
+    
+    height: 300px;
+    background-color: #d1d1d162;
+    background-image: url(../imgs/deco-imgs/fabric-pattern-deco.png);
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px 100px;
+    height: fit-content;
+    margin: 50px 0;
+    
+}
+.lb{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.lb img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: scale-down;
+}
+.rb{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 30px 0;
+    padding-left: 30px;
+
+}
+.rb1{
+    width: 100%;
+    height: fit-content;
+}
+.rb1 h3{
+    font-size: 32px;
+    letter-spacing: 3px;
+    color:#d9d9d9;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.rb2{
+    height: fit-content;
+}
+.rb2 p{
+    font-size: 18px;
+    text-indent: 36px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #b2b2b2;
+}

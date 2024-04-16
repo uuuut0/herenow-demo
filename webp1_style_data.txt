@@ -1,0 +1,66 @@
+nav 高度70px; line-height:
+nav background-color:#545454 opacity: 90%
+nav link a font-size:16px,
+ 字距 30%, 按鈕間距 35px, 字顏色EAEAEA
+
+-----------------------------------
+tag 18px
+    width: 100%;
+    font-size: 18px;
+    color: #382e2e;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+
+card title
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #302e2e;
+    font-weight: 600;
+content
+#b2b2b2 
+
+BG
+    background-color: #acacac;
+    box-shadow: inset -1px 26px 50px -6px #afafaf;
+    deco-color 
+        border-top: 3px solid #af1414bb;
+
+
+--------------------------------------
+we are 1/here now1
+1color: B2B2B2 
+2color: ffffff
+
+
+淺字 底色
+content font color b2b2b2 次級
+content- title color d9d9d9 主
+深底色
+#302e2e (偏紅)
+副 deco, dot
+#af1414;
+輔色
+#af1414bb
+
+
+
+section title: e3e3e3
+
+----
+block BG color code:
+footer: 2e2e2e
+
+
+---
+line color 
+
+blue tone use
+----
+english font :
+
+
+ -------------
+ 幻燈片= 照片
+            + ［標題文字＋div標籤文字(div 背景裝飾　absolute )］　+按鈕   
+        +裝飾框框
