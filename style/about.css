@@ -286,6 +286,17 @@ body{
     margin-bottom: 20px;
 }
 
+/* bg-drop */
+
+.body-bg-drop-grdnt{
+    height: 50%;
+    width: 30%;
+    background: #000;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(176,176,176,0.36) 0%, rgba(255,255,255,0) 100%);
+    bottom: 0;
+    z-index: -1;
+}
 
 /* 
 DEBUGGER */
