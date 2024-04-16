@@ -1,0 +1,323 @@
+body{
+    /* height: 2800px; */
+    position: relative;
+    min-width: 1200px;
+}
+
+.banner-section{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: calc(40vh - 75px);
+    /* border: 1px solid black; */
+    /* background-color: #375f25a1; */
+    z-index: 0;
+}
+.banner-section-img{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 40vh;
+        z-index: -1;
+} 
+.banner-section-img img{
+        width: 100%;
+        height: 100%;
+        
+        object-fit: cover;
+}
+.banner-page-title{
+        height: 50%;
+        width: 100%;
+        margin: 0 200px;
+        /* background-color: #113a8642; */
+        background-color: #1c2b81;
+
+        background: linear-gradient(0deg,#1c2b81 10%,#1c2b8100 100%);
+        position: relative;
+}
+.banner-page-title h2{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+
+        padding: 20px 0;
+        letter-spacing: 4px;
+        position: absolute;
+        bottom: 0;
+        color: aliceblue;
+        text-shadow: black 0.1em 0.1em 0.2em
+}
+
+/* section-profile */
+.section-profile{
+    /* width: 100%; */
+    margin-top: 30px;
+}
+
+/* -------- */
+/* three-col-wrapper */
+.section-profile-wrapper-threeCol{
+    
+    margin: 0 100px;
+}
+.section-profile-threeCol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+.profile-card-threeCol{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    background-color: #3d3d3d;
+
+}
+
+.profile-threeCol-img >img{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    transition: all .5s;
+
+}
+
+/* ------ */
+/* profile three-col IMG overlay */
+.profile-card-threeCol:hover .profile-threeCol-img> img{
+
+    opacity: 30%;
+    transform: rotate(-3deg) scale(1.1);
+    
+}
+
+
+.profile-card-threeCol .profile-threeCol-overlay-top{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+}
+
+
+
+
+.profile-threeCol-overlay-top img{
+    display: block;
+    width: 100%;
+    object-fit: scale-down;
+    /* border: 1px solid rgb(190, 16, 16); */
+}  
+
+
+
+.profile-card-threeCol .profile-threeCol-overlay-bottom{
+    /* width: 100%; */
+    position: absolute;
+    bottom:0;
+}
+.profile-threeCol-overlay-bottom img{
+    display: block;
+
+    width: 100%;
+    object-fit: scale-down;
+}
+/* profile overlay TXT content */
+.profile-threeCol-hover-txt{
+    position: absolute;
+    bottom: 100%;
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile-threeCol-hover-txt .hover-icon{
+    padding: 5px;
+
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 30px;
+
+
+}
+.profile-threeCol-hover-txt .hover-icon span.material-symbols-outlined{
+    font-size: 40px;
+    
+    color: rgb(226, 226, 226);
+
+}
+.profile-threeCol-hover-txt .hover-name{
+    width: 100%;
+    padding: 10px 0;
+    
+}
+.profile-threeCol-hover-txt .hover-name h3{
+    font-size: 28px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    padding: 5px 0;
+}
+.profile-card-threeCol:hover .profile-threeCol-img .profile-threeCol-hover-txt{
+    bottom: 0;
+}
+
+/* ---------- */
+/* section-profile- twoCol */
+.section-profile-wrapper-twoCol{
+    margin-top: 60px;
+}
+.section-profile-twoCol{
+    margin: 0 100px;
+    /* width: 1000px; */
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    /* border: 1px solid #000; */
+}
+.profile-card-twoCol{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    transition: all .5s;
+    /* border: 1px solid #970000; */
+
+}
+.profile-twoCol-img{
+    width: 100%;
+    background-color: #3d3d3d;
+
+}
+
+.profile-twoCol-img >img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    transition: all .5s;
+}
+
+.profile-card-twoCol .profile-twoCol-overlay-top{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.profile-twoCol-overlay-top img{
+    display: block;
+
+    width: 100%;
+}
+.profile-card-twoCol .profile-twoCol-overlay-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.profile-twoCol-overlay-bottom img{
+    display: block;
+    width: 100%;
+}
+/* --------------------- */
+/* two-col overlay  */
+.profile-card-twoCol:hover .profile-twoCol-img> img{
+
+    opacity: 30%;
+    transform: rotate(2deg) scale(1.05);
+    
+}
+.profile-card-twoCol .profile-twoCol-overlay-top{
+    /* width: 100%; */
+    overflow: hidden;
+    position: absolute;
+    top:0;
+}
+
+
+
+
+.profile-twoCol-overlay-top img{
+    display: block;
+    width: 100%;
+    object-fit: scale-down;
+}  
+
+
+
+.profile-card-threeCol .profile-threeCol-overlay-bottom{
+    /* width: 100%; */
+    position: absolute;
+    bottom:0;
+}
+.profile-threeCol-overlay-bottom img{
+    display: block;
+
+    width: 100%;
+    object-fit: scale-down;
+    /* border: 1px solid rgb(190, 16, 16); */
+}
+
+
+/* twoCol-txt hover */
+
+.profile-twoCol-hover-txt{
+    position: absolute;
+    bottom: 100%;
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #a5a5a5; */
+    
+}
+.profile-twoCol-hover-txt .hover-icon{
+    padding: 5px;
+
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 30px;
+
+
+}
+.profile-twoCol-hover-txt .hover-icon span.material-symbols-outlined{
+    font-size: 40px;
+    
+    color: rgb(226, 226, 226);
+
+}
+.profile-twoCol-hover-txt .hover-name{
+    width: 100%;
+    padding: 10px 0;
+    
+}
+.profile-twoCol-hover-txt .hover-name h3{
+    font-size: 28px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    padding: 5px 0;
+}
+.profile-card-twoCol:hover .profile-twoCol-img .profile-twoCol-hover-txt{
+    bottom: 0;
+}
+
+
+/* the second-three-col */
+.section-profile .section-profile-wrapper-threeCol:nth-child(3){
+    margin-top: 60px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+
