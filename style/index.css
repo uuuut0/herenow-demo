@@ -137,8 +137,8 @@ body{
 
     display: inline-block;
     border-bottom: 3px solid #767676;
-    font-size: 36px;
-    letter-spacing: 8px;
+    font-size: 28px;
+    letter-spacing: 5px;
     line-height: 45px ;
     text-indent: 8px;
     font-weight: 400;
@@ -256,7 +256,7 @@ body{
 .news-card-title h4{
     /* border: 1px solid #000; */
     color: #d9d9d9;
-    font-size: 18px;
+    font-size: 16px;
     text-indent: 5px;
     padding-left: 20px;
     line-height: 28px;
@@ -294,9 +294,9 @@ body{
 
     display: block;
     border-bottom: 3px solid #767676;
-    font-size: 36px;
-    letter-spacing: 8px;
-    line-height: 45px ;
+    font-size: 28px;
+    letter-spacing: 5px;
+    line-height: 40px ;
     text-indent: 8px;
     font-weight: 400;
     color: #d2d2d2;
@@ -379,14 +379,14 @@ body{
 }
 /* we are */
 .about-content-txt-slogan h3:nth-child(1){
-    font-size: 36px;
+    font-size: 28px;
     /* line-height: 30px; */
     color: #b2b2b2;
 }
 /* here now */
 .about-content-txt-slogan h3:nth-child(2){
     float: right;
-    font-size: 72px;
+    font-size: 68px;
     letter-spacing: 3px;
     line-height: 60px;
     /* margin-top: -1px; */
@@ -401,8 +401,8 @@ body{
     padding-right: 10px;
 }
 .about-content-txt-intro p{
-    color: #b2b2b2;
-    font-size:22px;
+    color: #fcfcfc;
+    font-size:18px;
     letter-spacing: 2px;
     line-height: 30px;
     margin-top: 12px;
@@ -429,9 +429,9 @@ body{
 
     display: inline-block;
     border-bottom: 3px solid #767676;
-    font-size: 36px;
-    letter-spacing: 8px;
-    line-height: 45px ;
+    font-size: 28px;
+    letter-spacing: 5px;
+    line-height: 40px ;
     text-indent: 8px;
     font-weight: 400;
     color: #d2d2d2;
@@ -530,10 +530,10 @@ body{
 .works-item-info p,.works-item-info h4{
     /* background-color: #99999981; */
     width: 100%;
-    margin: 5px 0;
+    margin: 3px 0;
 }
 .works-item-info h4{
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 2px;
     color: #302e2e;
     font-weight: 600;
@@ -541,7 +541,7 @@ body{
 
 .works-item-info p{
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     color: #382e2e;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -600,9 +600,9 @@ body{
 .body-bg-drop-grdnt{
     height: 100%;
     width: 20%;
-    background: #000;
+    /* background: #b0b0b0c4; */
     position: absolute;
-    background: linear-gradient(-90deg, rgba(90, 25, 25, 0.36) 0%, rgba(212, 137, 137, 0) 100%);
+    background: linear-gradient(-90deg, rgba(149, 144, 144, 0.36) 0%, rgba(121, 112, 112, 0) 100%);
     z-index: -1;
     right: 0;
     bottom: 0;
