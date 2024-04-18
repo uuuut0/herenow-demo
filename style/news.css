@@ -148,15 +148,16 @@ body{
 }
 .focus-card-content a{
     float: right;
-    height: 30px;
+    /* height: 30px; */
     padding-bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: #5757570f;
 }
 .focus-card-content a img{
-
+    
     padding: 6px;
     margin-right: 5px;
 }
