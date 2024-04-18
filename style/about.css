@@ -100,7 +100,7 @@ body{
     padding-top: 5%;
 }
 .section-intro-txt p{
-    color: rgb(199, 199, 199);
+    color: #b2b2b2;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1px;
@@ -229,7 +229,7 @@ body{
 .toggle-content p{
     padding: 8px 15px;
 
-    color: azure;
+    color: #b2b2b2;
     font-size: 18px;
     text-indent: 36px;
     line-height: 26px;
