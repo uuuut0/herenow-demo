@@ -27,52 +27,50 @@ body{
         object-fit: cover;
 }
 .banner-page-title{
-        height: 50%;
-        width: 100%;
-        margin: 0 200px;
-        /* background-color: #113a8642; */
-        background-color: #1c2b81;
+    height: fit-content;
+    width: 100%;
 
-        background: linear-gradient(0deg,#1c2b81 10%,#1c2b8100 100%);
-        position: relative;
+    position: relative;
 }
 .banner-page-title h2{
-        width: 100%;
-        text-align: center;
-        font-size: 24px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
 
-        padding: 20px 0;
-        letter-spacing: 4px;
-        position: absolute;
-        bottom: 0;
-        color: aliceblue;
-        text-shadow: black 0.1em 0.1em 0.2em
+    font-size: 28px;
+    letter-spacing: 6px;
+    color: rgb(225, 225, 225);
+    background: #00000080 linear-gradient(180deg, rgba(137,131,131,0) 0%, rgba(0, 0, 0, 0.082) 75%, rgba(0, 0, 0, 0.89) 100%);
+    font-weight: 400;
+
 }
 
 /* section-profile */
 .section-profile{
     /* width: 100%; */
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 /* -------- */
 /* three-col-wrapper */
 .section-profile-wrapper-threeCol{
     
-    margin: 0 100px;
+    margin: 0 200px;
 }
 .section-profile-threeCol{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 20px;
+    justify-content:space-between;
+    /* column-gap: 20px; */
     
 }
 .profile-card-threeCol{
     position: relative;
     overflow: hidden;
-    width: 300px;
-    height: 450px;
+    width: 250px;
+    /* height: 450px; */
     background-color: #3d3d3d;
 
 }
@@ -176,17 +174,17 @@ body{
     margin-top: 60px;
 }
 .section-profile-twoCol{
-    margin: 0 100px;
-    /* width: 1000px; */
+    box-sizing: border-box;
+    margin: 0 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 40px;
     /* border: 1px solid #000; */
 }
 .profile-card-twoCol{
     position: relative;
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    /* height: 300px; */
     overflow: hidden;
     transition: all .5s;
     /* border: 1px solid #970000; */
